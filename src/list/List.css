@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  min-width: 60%;
+  max-width: 90%;
+}
+
+.list{
+  margin: auto;
+}

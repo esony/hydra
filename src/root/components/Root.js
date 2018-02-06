@@ -2,17 +2,17 @@
 
 import React from 'react'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-import Hello from '../../hello/components/Hello'
 import css from './Root.css'
+import Menu from '../../components/Menu'
+import Landing from '../../landing/Landing'
 
 const Root = () => (
-  <div className={css.component}>
-    <Router>
-      <div className={css.routes}>
-        <Route exact path="/" component={Hello} />
-      </div>
-    </Router>
-  </div>
+  <Router>
+    <div className={css.routes}>
+      <Route exact path="/" component={Landing} />
+      <Route exact path="/courses" component={Menu} />
+    </div>
+  </Router>
 )
 
 export default Root

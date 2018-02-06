@@ -2,4 +2,11 @@
   --black: #000;
   --white: #fff;
   --silver: #f4f4f4;
+  --red: #e95500;
+  --orange: rgb(238, 96, 1);
+  --white: rgba(235, 235, 235, 1);
+  --grey: rgb(207, 207, 207);
+  --darkgrey: rgb(65, 65, 65);
+  --charcoal: rgba(34, 34, 34, 1);
 }
+
